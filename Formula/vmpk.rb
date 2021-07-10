@@ -7,6 +7,7 @@ class Vmpk < Formula
 
   depends_on "qt@5" => :build
   depends_on "cmake" => :build
+  depends_on "pkg-config" => :build
 
   resource "drumstick" do
     url "https://sourceforge.net/projects/drumstick/files/2.3.0/drumstick-2.3.0.tar.bz2"
