@@ -1,9 +1,9 @@
 class Vmpk < Formula
   desc "Virtual MIDI controller for Linux, Windows and OSX"
-  homepage ""
+  homepage "https://vmpk.sourceforge.io"
   url "https://sourceforge.net/projects/vmpk/files/vmpk/0.8.4/vmpk-0.8.4.tar.bz2"
   sha256 "492743f1dca7e9a6ed8bcaa477b3799fc118af9c8c5be10f6149d19bb4bd084e"
-  license ""
+  license "GPLv3"
 
   depends_on "qt@5" => :build
   depends_on "cmake" => :build
